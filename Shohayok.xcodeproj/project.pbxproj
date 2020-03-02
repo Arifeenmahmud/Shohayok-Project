@@ -14,8 +14,8 @@
 		0F01579724067DAC00AE70F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F01579524067DAC00AE70F7 /* LaunchScreen.storyboard */; };
 		0F0157A224067DAD00AE70F7 /* ShohayokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0157A124067DAD00AE70F7 /* ShohayokTests.swift */; };
 		0F0157AD24067DAD00AE70F7 /* ShohayokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0157AC24067DAD00AE70F7 /* ShohayokUITests.swift */; };
+		0F5CC783240D331900996F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5CC782240D331900996F18 /* ViewController.swift */; };
 		0F69F47B2407DAC300214043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F69F47A2407DAC200214043 /* Main.storyboard */; };
-		0F69F47D2407DAF000214043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F69F47C2407DAF000214043 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		0F0157A824067DAD00AE70F7 /* ShohayokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShohayokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0157AC24067DAD00AE70F7 /* ShohayokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShohayokUITests.swift; sourceTree = "<group>"; };
 		0F0157AE24067DAD00AE70F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5CC782240D331900996F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F69F47A2407DAC200214043 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		0F69F47C2407DAF000214043 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../AutoScroller 2/AutoScroller/ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			children = (
 				0F01578724067DA500AE70F7 /* AppDelegate.swift */,
 				0F01578924067DA500AE70F7 /* SceneDelegate.swift */,
-				0F69F47C2407DAF000214043 /* ViewController.swift */,
+				0F5CC782240D331900996F18 /* ViewController.swift */,
 				0F69F47A2407DAC200214043 /* Main.storyboard */,
 				0F01579324067DAC00AE70F7 /* Assets.xcassets */,
 				0F01579524067DAC00AE70F7 /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F69F47D2407DAF000214043 /* ViewController.swift in Sources */,
+				0F5CC783240D331900996F18 /* ViewController.swift in Sources */,
 				0F01578824067DA500AE70F7 /* AppDelegate.swift in Sources */,
 				0F01578A24067DA500AE70F7 /* SceneDelegate.swift in Sources */,
 				0F01579224067DA500AE70F7 /* Shohayok.xcdatamodeld in Sources */,
