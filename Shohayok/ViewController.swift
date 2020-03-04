@@ -9,17 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 2
-    }
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 2
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath)
-        return cell
-    }
+   
     
     @IBOutlet weak var SlideShowViewer: UIImageView!
      var imageNames = ["1","2","3","4","5","6"]//List of image names
@@ -34,7 +24,26 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             //timer.invalidate() //Stops timer
         }
     
+    
+    
     @IBOutlet weak var myCollectionView: UICollectionView!
+    
+//    let width = (view.frame.size.width - 20) / 2\
+//    let layout = collectionView(<#T##self: ViewController##ViewController#>)
+    
+    
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+           return 2
+       }
+       func numberOfSections(in collectionView: UICollectionView) -> Int {
+           return 2
+       }
+       
+       func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+           let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath)
+           return cell
+       }
     
     
 }
