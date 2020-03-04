@@ -25,11 +25,24 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
     
     
-    
+    // MARK: Collection view
     @IBOutlet weak var myCollectionView: UICollectionView!
     
 //    let width = (view.frame.size.width - 20) / 2\
 //    let layout = collectionView(<#T##self: ViewController##ViewController#>)
+    
+    let img = ["ec","","","","",""]
+    
+    let images:[UIImage] = [
+    UIImage(named: "ec")!,
+    UIImage(named: "")!,
+    UIImage(named: "")!,
+    UIImage(named: "")!,
+    UIImage(named: "")!,
+    UIImage(named: "")!
+    
+    ]
+    
     
     
     
