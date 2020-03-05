@@ -12,7 +12,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
    
     
     @IBOutlet weak var SlideShowViewer: UIImageView!
-     var imageNames = ["1","2","3","4","5","6"]//List of image names
+     var imageNames = ["1","2","3","4","5"]//List of image names
     override func viewDidLoad() {
         super.viewDidLoad()
         let timer = Timer.scheduledTimer(withTimeInterval: 1.5, repeats: true) { timer in
@@ -31,18 +31,18 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 //    let width = (view.frame.size.width - 20) / 2\
 //    let layout = collectionView(<#T##self: ViewController##ViewController#>)
     
-    let img = ["ec","","","","",""]
-    
-    let images:[UIImage] = [
-    UIImage(named: "ec")!,
-    UIImage(named: "")!,
-    UIImage(named: "")!,
-    UIImage(named: "")!,
-    UIImage(named: "")!,
-    UIImage(named: "")!
-    
-    ]
-    
+//    let img = ["ec","","","","",""]
+//    
+//    let images:[UIImage] = [
+//    UIImage(named: "ec")!,
+//    UIImage(named: "")!,
+//    UIImage(named: "")!,
+//    UIImage(named: "")!,
+//    UIImage(named: "")!,
+//    UIImage(named: "")!
+//    
+//    ]
+//    
     
     
     
