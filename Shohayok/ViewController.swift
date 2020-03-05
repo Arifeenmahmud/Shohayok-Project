@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let timer = Timer.scheduledTimer(withTimeInterval: 1.5, repeats: true) { timer in
         self.SlideShowViewer.image = UIImage(named: self.imageNames.randomElement()!) //Slideshow logic
+            
+            
     }
         timer.fire() //Starts timer
             //timer.invalidate() //Stops timer
@@ -26,7 +28,13 @@ class ViewController: UIViewController {
 
 
 // MARK: Collection view
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        // In this function is the code  must implement to your code project if want to change size of Collection view
+        let width  = (view.frame.size.width - 20) / 3
+        return CGSize(width: width, height: width)
+    }
         
         func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
                return 2
