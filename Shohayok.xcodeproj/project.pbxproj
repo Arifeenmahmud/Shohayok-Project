@@ -16,6 +16,7 @@
 		0F01579724067DAC00AE70F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F01579524067DAC00AE70F7 /* LaunchScreen.storyboard */; };
 		0F0157A224067DAD00AE70F7 /* ShohayokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0157A124067DAD00AE70F7 /* ShohayokTests.swift */; };
 		0F0157AD24067DAD00AE70F7 /* ShohayokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0157AC24067DAD00AE70F7 /* ShohayokUITests.swift */; };
+		0F15C9612412B65E00952B1C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F15C9602412B65E00952B1C /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0F0157A824067DAD00AE70F7 /* ShohayokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShohayokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0157AC24067DAD00AE70F7 /* ShohayokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShohayokUITests.swift; sourceTree = "<group>"; };
 		0F0157AE24067DAD00AE70F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F15C9602412B65E00952B1C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				0F01578924067DA500AE70F7 /* SceneDelegate.swift */,
 				0F01578B24067DA500AE70F7 /* ViewController.swift */,
 				0F01578D24067DA500AE70F7 /* Main.storyboard */,
+				0F15C9602412B65E00952B1C /* CollectionViewCell.swift */,
 				0F01579324067DAC00AE70F7 /* Assets.xcassets */,
 				0F01579524067DAC00AE70F7 /* LaunchScreen.storyboard */,
 				0F01579824067DAC00AE70F7 /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F15C9612412B65E00952B1C /* CollectionViewCell.swift in Sources */,
 				0F01578C24067DA500AE70F7 /* ViewController.swift in Sources */,
 				0F01578824067DA500AE70F7 /* AppDelegate.swift in Sources */,
 				0F01578A24067DA500AE70F7 /* SceneDelegate.swift in Sources */,
