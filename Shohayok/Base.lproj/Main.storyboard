@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,12 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shohayok" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4XE-8q-7Dr">
-                                <rect key="frame" x="0.0" y="285" width="414" height="610"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4XE-8q-7Dr">
+                                <rect key="frame" x="0.0" y="241" width="375" height="426"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" sectionInsetReference="layoutMargins" id="Or6-Pu-38X">
                                     <size key="itemSize" width="160" height="220"/>
@@ -65,12 +64,23 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Qc7-cL-L42"/>
                                 </connections>
                             </collectionView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LaI-NR-gMX" userLabel="Slide Show Viewer">
-                                <rect key="frame" x="0.0" y="44" width="414" height="241"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LaI-NR-gMX" userLabel="Slide Show Viewer">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="241"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="241" id="t7z-6v-58e"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="LaI-NR-gMX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="L2i-k6-Xq5"/>
+                            <constraint firstItem="LaI-NR-gMX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Wc5-rY-np9"/>
+                            <constraint firstItem="4XE-8q-7Dr" firstAttribute="top" secondItem="LaI-NR-gMX" secondAttribute="bottom" id="aWI-nU-dvB"/>
+                            <constraint firstAttribute="trailing" secondItem="LaI-NR-gMX" secondAttribute="trailing" id="fHf-Eh-2Qr"/>
+                            <constraint firstItem="LaI-NR-gMX" firstAttribute="trailing" secondItem="4XE-8q-7Dr" secondAttribute="trailing" id="rcF-e5-1ek"/>
+                            <constraint firstItem="LaI-NR-gMX" firstAttribute="leading" secondItem="4XE-8q-7Dr" secondAttribute="leading" id="uXy-dw-CAH"/>
+                            <constraint firstItem="4XE-8q-7Dr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vPH-3C-O6M"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="jZ3-XB-DFz"/>
@@ -81,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="866.66666666666674" y="138.61607142857142"/>
+            <point key="canvasLocation" x="866.39999999999998" y="138.0809595202399"/>
         </scene>
     </scenes>
 </document>
