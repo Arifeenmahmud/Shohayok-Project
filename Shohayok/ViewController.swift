@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         self.SlideShowViewer.image = UIImage(named: self.imageNames.randomElement()!) //Slideshow logic
             
             
+            
     }
         timer.fire() //Starts timer
             //timer.invalidate() //Stops timer
@@ -62,6 +63,12 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
             cell.mainImageView.image = mainImg[indexPath.item]
             return cell
            }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let text = mainImg[indexPath.row]
+        print("Selected \(text)")
+        
+    }
+    
         }
 
 
