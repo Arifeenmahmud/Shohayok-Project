@@ -10,20 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-     @IBOutlet weak var myCollectionView: UICollectionView!
-    
-    let Img = ["ec","em","fn","id"]
-    
-    let mainImg:[UIImage] = [
-    
-    UIImage(named: "ec")!,
-     UIImage(named: "em")!,
-      UIImage(named: "fn")!,
-       UIImage(named: "id")!
-    ]
-    
-    
-    
+    // MARK: Slider
     @IBOutlet weak var SlideShowViewer: UIImageView!
      var imageNames = ["1","2","3","4","5"]//List of image names
     override func viewDidLoad() {
@@ -38,6 +25,18 @@ class ViewController: UIViewController {
             //timer.invalidate() //Stops timer
         }
     
+    // MARK: Collection View Image
+     @IBOutlet weak var myCollectionView: UICollectionView!
+    
+    let Img = ["ec","em","fn","id"]
+    
+    let mainImg:[UIImage] = [
+    
+    UIImage(named: "ec")!,
+     UIImage(named: "em")!,
+      UIImage(named: "fn")!,
+       UIImage(named: "id")!
+    ]
     
     }
 
