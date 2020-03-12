@@ -10,12 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var slider: UIImageView!
+    
+    var imageNames = ["1","2","3","4","5"]//List of image names
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let timer = Timer.scheduledTimer(withTimeInterval: 1.5, repeats: true) { timer in
+        self.slider.image = UIImage(named: self.imageNames.randomElement()!) //Slideshow logic
     }
 
-    
+    timer.fire() //Starts timer
+               //timer.invalidate() //Stops timer
 
+     }
 }
-
