@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505E6EBED094B084D658C29A /* Pods_Sohayok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69F2F61B87BAA265A215B46 /* Pods_Sohayok.framework */; };
+		7EC5A734E16A3CB4182049D7 /* Pods_SohayokTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F074F1A158D7E18E9D4AD65 /* Pods_SohayokTests.framework */; };
+		8D796D122D778AAEC4AB2A3D /* Pods_Sohayok_SohayokUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41DFC900A195030ADEFF2BB /* Pods_Sohayok_SohayokUITests.framework */; };
 		928E7448241A5C5400B594B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E7447241A5C5400B594B1 /* AppDelegate.swift */; };
 		928E744A241A5C5400B594B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E7449241A5C5400B594B1 /* ViewController.swift */; };
 		928E744D241A5C5400B594B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928E744B241A5C5400B594B1 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4404F89E85A13CBCFCC931E3 /* Pods-Sohayok-SohayokUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sohayok-SohayokUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sohayok-SohayokUITests/Pods-Sohayok-SohayokUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		776316B644394E1B7E077FAE /* Pods-Sohayok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sohayok.debug.xcconfig"; path = "Target Support Files/Pods-Sohayok/Pods-Sohayok.debug.xcconfig"; sourceTree = "<group>"; };
+		8F074F1A158D7E18E9D4AD65 /* Pods_SohayokTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SohayokTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		928E7444241A5C5400B594B1 /* Sohayok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sohayok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928E7447241A5C5400B594B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		928E7449241A5C5400B594B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		928E7466241A5C5600B594B1 /* SohayokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SohayokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		928E746A241A5C5600B594B1 /* SohayokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SohayokUITests.swift; sourceTree = "<group>"; };
 		928E746C241A5C5600B594B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BD856B5E6F518C2FE8EC0B /* Pods-Sohayok-SohayokUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sohayok-SohayokUITests.release.xcconfig"; path = "Target Support Files/Pods-Sohayok-SohayokUITests/Pods-Sohayok-SohayokUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5C31DF3BCF1FE01C121FEB8 /* Pods-SohayokTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SohayokTests.release.xcconfig"; path = "Target Support Files/Pods-SohayokTests/Pods-SohayokTests.release.xcconfig"; sourceTree = "<group>"; };
+		D41DFC900A195030ADEFF2BB /* Pods_Sohayok_SohayokUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sohayok_SohayokUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B1120E9668D16AE3F02D6C /* Pods-SohayokTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SohayokTests.debug.xcconfig"; path = "Target Support Files/Pods-SohayokTests/Pods-SohayokTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F54A8504FBF8B6CBD94BC9F0 /* Pods-Sohayok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sohayok.release.xcconfig"; path = "Target Support Files/Pods-Sohayok/Pods-Sohayok.release.xcconfig"; sourceTree = "<group>"; };
+		F69F2F61B87BAA265A215B46 /* Pods_Sohayok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sohayok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505E6EBED094B084D658C29A /* Pods_Sohayok.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC5A734E16A3CB4182049D7 /* Pods_SohayokTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D796D122D778AAEC4AB2A3D /* Pods_Sohayok_SohayokUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53D94E3A61CD15DCB1E62E1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				776316B644394E1B7E077FAE /* Pods-Sohayok.debug.xcconfig */,
+				F54A8504FBF8B6CBD94BC9F0 /* Pods-Sohayok.release.xcconfig */,
+				4404F89E85A13CBCFCC931E3 /* Pods-Sohayok-SohayokUITests.debug.xcconfig */,
+				B3BD856B5E6F518C2FE8EC0B /* Pods-Sohayok-SohayokUITests.release.xcconfig */,
+				D5B1120E9668D16AE3F02D6C /* Pods-SohayokTests.debug.xcconfig */,
+				B5C31DF3BCF1FE01C121FEB8 /* Pods-SohayokTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		57D07206DD7A2F3BA61F4A9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F69F2F61B87BAA265A215B46 /* Pods_Sohayok.framework */,
+				D41DFC900A195030ADEFF2BB /* Pods_Sohayok_SohayokUITests.framework */,
+				8F074F1A158D7E18E9D4AD65 /* Pods_SohayokTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		928E743B241A5C5400B594B1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				928E745E241A5C5600B594B1 /* SohayokTests */,
 				928E7469241A5C5600B594B1 /* SohayokUITests */,
 				928E7445241A5C5400B594B1 /* Products */,
+				53D94E3A61CD15DCB1E62E1D /* Pods */,
+				57D07206DD7A2F3BA61F4A9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 928E746F241A5C5600B594B1 /* Build configuration list for PBXNativeTarget "Sohayok" */;
 			buildPhases = (
+				0DE68530707B9E2CD7B73EA9 /* [CP] Check Pods Manifest.lock */,
 				928E7440241A5C5400B594B1 /* Sources */,
 				928E7441241A5C5400B594B1 /* Frameworks */,
 				928E7442241A5C5400B594B1 /* Resources */,
+				ECE48111D03D94F2C6E882BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 928E7472241A5C5600B594B1 /* Build configuration list for PBXNativeTarget "SohayokTests" */;
 			buildPhases = (
+				17D0E362E2FFAD7F679D03B5 /* [CP] Check Pods Manifest.lock */,
 				928E7457241A5C5600B594B1 /* Sources */,
 				928E7458241A5C5600B594B1 /* Frameworks */,
 				928E7459241A5C5600B594B1 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 928E7475241A5C5600B594B1 /* Build configuration list for PBXNativeTarget "SohayokUITests" */;
 			buildPhases = (
+				5061941BC6BDFC2A1193793D /* [CP] Check Pods Manifest.lock */,
 				928E7462241A5C5600B594B1 /* Sources */,
 				928E7463241A5C5600B594B1 /* Frameworks */,
 				928E7464241A5C5600B594B1 /* Resources */,
+				D191AF32740A2244DD76015C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE68530707B9E2CD7B73EA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sohayok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17D0E362E2FFAD7F679D03B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SohayokTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5061941BC6BDFC2A1193793D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sohayok-SohayokUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D191AF32740A2244DD76015C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sohayok-SohayokUITests/Pods-Sohayok-SohayokUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sohayok-SohayokUITests/Pods-Sohayok-SohayokUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sohayok-SohayokUITests/Pods-Sohayok-SohayokUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE48111D03D94F2C6E882BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sohayok/Pods-Sohayok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sohayok/Pods-Sohayok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sohayok/Pods-Sohayok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		928E7440241A5C5400B594B1 /* Sources */ = {
@@ -434,6 +583,7 @@
 		};
 		928E7470241A5C5600B594B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776316B644394E1B7E077FAE /* Pods-Sohayok.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +601,7 @@
 		};
 		928E7471241A5C5600B594B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54A8504FBF8B6CBD94BC9F0 /* Pods-Sohayok.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		928E7473241A5C5600B594B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B1120E9668D16AE3F02D6C /* Pods-SohayokTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +640,7 @@
 		};
 		928E7474241A5C5600B594B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C31DF3BCF1FE01C121FEB8 /* Pods-SohayokTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		928E7476241A5C5600B594B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4404F89E85A13CBCFCC931E3 /* Pods-Sohayok-SohayokUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +681,7 @@
 		};
 		928E7477241A5C5600B594B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3BD856B5E6F518C2FE8EC0B /* Pods-Sohayok-SohayokUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
