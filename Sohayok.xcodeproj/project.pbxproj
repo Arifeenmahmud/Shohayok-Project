@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0057BB241BAF0100A38ED3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0057BA241BAF0100A38ED3 /* CollectionViewCell.swift */; };
 		505E6EBED094B084D658C29A /* Pods_Sohayok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69F2F61B87BAA265A215B46 /* Pods_Sohayok.framework */; };
 		7EC5A734E16A3CB4182049D7 /* Pods_SohayokTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F074F1A158D7E18E9D4AD65 /* Pods_SohayokTests.framework */; };
 		8D796D122D778AAEC4AB2A3D /* Pods_Sohayok_SohayokUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41DFC900A195030ADEFF2BB /* Pods_Sohayok_SohayokUITests.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0057BA241BAF0100A38ED3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		4404F89E85A13CBCFCC931E3 /* Pods-Sohayok-SohayokUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sohayok-SohayokUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sohayok-SohayokUITests/Pods-Sohayok-SohayokUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		776316B644394E1B7E077FAE /* Pods-Sohayok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sohayok.debug.xcconfig"; path = "Target Support Files/Pods-Sohayok/Pods-Sohayok.debug.xcconfig"; sourceTree = "<group>"; };
 		8F074F1A158D7E18E9D4AD65 /* Pods_SohayokTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SohayokTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +103,6 @@
 				D5B1120E9668D16AE3F02D6C /* Pods-SohayokTests.debug.xcconfig */,
 				B5C31DF3BCF1FE01C121FEB8 /* Pods-SohayokTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,6 +144,7 @@
 				928E7447241A5C5400B594B1 /* AppDelegate.swift */,
 				928E7449241A5C5400B594B1 /* ViewController.swift */,
 				928E744B241A5C5400B594B1 /* Main.storyboard */,
+				0F0057BA241BAF0100A38ED3 /* CollectionViewCell.swift */,
 				928E7451241A5C5500B594B1 /* Assets.xcassets */,
 				928E7453241A5C5500B594B1 /* LaunchScreen.storyboard */,
 				928E7456241A5C5600B594B1 /* Info.plist */,
@@ -410,6 +412,7 @@
 			files = (
 				928E744A241A5C5400B594B1 /* ViewController.swift in Sources */,
 				928E7450241A5C5400B594B1 /* Sohayok.xcdatamodeld in Sources */,
+				0F0057BB241BAF0100A38ED3 /* CollectionViewCell.swift in Sources */,
 				928E7448241A5C5400B594B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

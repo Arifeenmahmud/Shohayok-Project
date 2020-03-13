@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,17 +20,64 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hro-DN-2vV">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="195"/>
                             </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8is-qo-ose">
+                                <rect key="frame" x="0.0" y="203" width="375" height="464"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Fyr-rj-QCc">
+                                    <size key="itemSize" width="143" height="147"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="myCell" id="xYS-7f-zee" customClass="CollectionViewCell" customModule="Sohayok" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="143" height="147"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xXY-4O-ORx">
+                                            <rect key="frame" x="0.0" y="0.0" width="143" height="147"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jNW-Dx-hD2">
+                                                    <rect key="frame" x="0.0" y="0.0" width="143" height="117"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPZ-ne-TFG">
+                                                    <rect key="frame" x="40" y="118" width="71" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="143" height="147"/>
+                                        <connections>
+                                            <outlet property="mainImageView" destination="jNW-Dx-hD2" id="CXH-XE-22J"/>
+                                            <outlet property="mainText" destination="sPZ-ne-TFG" id="0BL-fU-zKM"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Nj7-4e-ADk"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="SgW-gg-4Nl"/>
+                                </connections>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8is-qo-ose" secondAttribute="trailing" id="130-gJ-N4m"/>
                             <constraint firstItem="Hro-DN-2vV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="62a-hC-Xch"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Hro-DN-2vV" secondAttribute="bottom" constant="472" id="Knt-ND-Mhx"/>
                             <constraint firstItem="Hro-DN-2vV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dKn-Ol-RxA"/>
+                            <constraint firstItem="8is-qo-ose" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lFN-vB-lqO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8is-qo-ose" secondAttribute="bottom" id="vmc-En-6TM"/>
+                            <constraint firstItem="8is-qo-ose" firstAttribute="top" secondItem="Hro-DN-2vV" secondAttribute="bottom" constant="8" symbolic="YES" id="vpV-hA-IdP"/>
                             <constraint firstItem="Hro-DN-2vV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xGP-NE-2xi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="myCollectionView" destination="8is-qo-ose" id="sT5-9L-oo8"/>
                         <outlet property="slider" destination="Hro-DN-2vV" id="rDH-1N-waE"/>
                     </connections>
                 </viewController>

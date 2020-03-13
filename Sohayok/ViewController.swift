@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    // MARK: Slider
     @IBOutlet weak var slider: UIImageView!
     
     var imageNames = ["1","2","3","4","5"]//List of image names
@@ -26,4 +26,44 @@ class ViewController: UIViewController {
                //timer.invalidate() //Stops timer
 
      }
+    // MARK: Collection View Image
+    @IBOutlet weak var myCollectionView: UICollectionView!
+    let Imgname = ["ec","em","fn","id"]
+    
+    let mainImg:[UIImage] = [
+    
+    UIImage(named: "ec")!,
+     UIImage(named: "em")!,
+      UIImage(named: "fn")!,
+       UIImage(named: "id")!
+    ]
 }
+
+// MARK: Collection View
+extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+
+func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    let width  = (view.frame.size.width - 40) / 2
+    return CGSize(width: width, height: width)
+}
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return Imgname.count
+       }
+       func numberOfSections(in collectionView: UICollectionView) -> Int {
+           return 1
+       }
+       
+       func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+           let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath) as! CollectionViewCell
+        cell.mainText.text = Imgname[indexPath.item]
+        cell.mainImageView.image = mainImg[indexPath.item]
+        return cell
+       }
+func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    let text = mainImg[indexPath.row]
+    print("Selected \(text)")
+    
+}
+
+    }
