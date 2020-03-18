@@ -39,6 +39,7 @@ class ViewController: UIViewController {
         UIImage(named: "em")!,
         UIImage(named: "fn")!,
         UIImage(named: "id")!
+        
     ]
     
 }
@@ -65,14 +66,16 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-           // performSegue(withIdentifier: "DetailSegue", sender: indexPath)
+//        let text = mainImg[indexPath.row]
+//        print("Selected \(text)")
+        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-            if segue.identifier == "DetailSegue"{
-            if let dest = segue.destination as? DetailViewController,
-                let index = myCollectionView.indexPathsForSelectedItems?.first {
-                dest.selection = Imgname[index.row]
+        if segue.identifier == "DetailSegue"{
+        if let dest = segue.destination as? DetailViewController,
+            let index = myCollectionView.indexPathsForSelectedItems?.first {
+            dest.selection = Imgname[index.row]
             }
         }
     }

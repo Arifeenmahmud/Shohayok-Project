@@ -63,7 +63,7 @@
                                         <connections>
                                             <outlet property="mainImageView" destination="QzO-d8-bTd" id="usL-r2-8lo"/>
                                             <outlet property="mainText" destination="9hp-Fc-HKM" id="4K4-TP-m9Z"/>
-                                            <segue destination="zz5-gP-poI" kind="show" identifier="DetailSegue" id="c1J-vc-woH"/>
+                                            <segue destination="zz5-gP-poI" kind="show" identifier="DetailSegue" id="Mtk-ag-iCc"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
